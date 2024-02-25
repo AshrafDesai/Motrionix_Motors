@@ -1,0 +1,14 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slider background -->
+  <rect class="slider" x="0" y="0" width="800" height="400" rx="10" ry="10" />
+
+  <!-- Product image -->
+  <image class="product-image" x="100" y="50" width="600" height="300" xlink:href="website-Indunil-motors\website\products1.jpeg" />
+
+  <!-- Navigation buttons -->
+  <rect x="50" y="180" width="50" height="40" rx="5" ry="5" fill="#fff" stroke="#333" />
+  <polygon points="65,195 85,180 85,210" fill="#333" />
+
+  <rect x="700" y="180" width="50" height="40" rx="5" ry="5" fill="#fff" stroke="#333" />
+  <polygon points="735,195 715,180 715,210" fill="#333" />
+</svg>

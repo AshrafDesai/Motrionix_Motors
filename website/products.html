@@ -1,0 +1,173 @@
+<html>
+	<head>
+		<title>Motrionix Motors Corporation</title>
+        <script src="http://kit.fontawesome.com/6e53ca7139.js"></script>
+		<link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	</head>
+	<body onload="slider()">
+		<div class="banner">
+            <div class="slider">
+                <img src="background.jpg" id="sliderImg">
+            </div>
+            <div class="overlay">
+                  <div class="navbar">
+                <img src="web%20logo.png" class="logo1">
+                <nav>
+                    <ul>
+                        <li><b><a href="home.html">Home</a></b></li>
+                        <li><b><a href="about%20us.html">About us</a></b></li>
+                        <li><b><a href="products.html">Products</a></b></li>
+                        <li><b><a href="Contactus.html">Contact us</a></b></li>
+                        <li class="signin" ><b><a href="signin.html">Signin</a></b></li>
+                        
+                    </ul>
+                </nav>
+            
+            </div>
+                
+            </div>
+        </div>
+        <div class="hero" >
+            <span class="big-circle one"></span>
+            <span class="small-circle"></span>
+            <h1>Our Products</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="item" data-aos="zoom-in" data-aos-duration="2000">
+                        <img src="motor1.webp">
+                        <h2>IE4 series</h2>
+                        <p>Super Premium efficiency three phase motor with cast iron body</p>
+                    </div>
+                </div>
+                <div class="col">
+                       <div class="item" data-aos="zoom-in" data-aos-duration="2000">
+                        <img src="motor2.webp">
+                        <h2>IE3 series</h2>
+                        <p>super high efficiency three phase motor with cast iron body</p>
+                    </div>
+                </div>
+                <div class="col" >
+                       <div class="item" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="motor5.webp">
+                        <h2>IE2 series</h2>
+                        <p>high efficiency three phase motor with cast iron body</p>
+                    </div>
+                </div>
+                 <div class="col" >
+                       <div class="item" data-aos="zoom-in" data-aos-duration="2000">
+                        <img src="motor6.webp">
+                        <h2>IE1 standard </h2>
+                        <p>Y2 series three phase motor with cast iron body</p>
+                    </div>
+                </div>
+                 <div class="col" >
+                       <div class="item" data-aos="zoom-in" data-aos-duration="2000">
+                        <img src="motors3.png">
+                        <h2>YEJA- AC Brake motor</h2>
+                        <p>YEJA- AC Brake motor</p>
+                    </div>
+                </div>
+                 <div class="col" >
+                       <div class="item" data-aos="zoom-in" data-aos-duration="2000">
+                        <img src="motor4.jpg">
+                        <h2>MS series three phase motor</h2>
+                        <p>Aluminium body for IE1, IE2, IE3 , IE4 standard</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <!--social media icons-->
+        <div class="icons">
+            <ul>
+                <a href="#"><li class="facebook">Facebook<i class="fa fa-facebook"></i></li></a>
+                <a href="#"><li class="Google">Google<i class="fa fa-google"></i></li></a>
+                <a href="#"><li class="whatsapp">Whatsapp<i class="fa fa-whatsapp"></i></li></a> 
+                <a href="#"><li class="twitter">Twitter<i class="fa fa-twitter"></i></li></a>       
+            </ul>
+        
+        </div>
+        <!--footer-->
+        <footer>
+            <div class="row">
+                <div class="coloum">
+                    <img src="web%20logo.png" class="logo">
+                    <p>We are one stop solution for all industrial motos with best motors in market</p>
+                </div>
+                <div class="coloum">
+                    <h3>Shop</h3>
+                    <p>12</p>
+                    <p>Blue Chip Compund,Vasai</p>
+                    <p>Mumbai Maharashtra</p>
+                    <p class="email">motrionixmotors@gmail.com</p>
+                    <h4>Phone:+91 9967452141</h4>
+                </div>
+                <div class="coloum">
+                    <h3>Quick links</h3>
+                    <ul>
+                        <li><b><a href="home.html">Home</a></b></li>
+                        <li><b><a href="products.html">Products</a></b></li>
+                        <li><b><a href="">About us</a></b></li>
+                        <li><b><a href="Contactus.html">Contat Us</a></b></li>
+                        <li><b><a href="signin.html">Sign in</a></b></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </footer>
+        <script>
+            var sliderImg = document.getElementById("sliderImg");
+            var images = new Array(
+                "background.jpg",
+                "bg2.jpg",
+                "bg3.jpg"
+            );
+            var len = images.length;
+            var i = 0;
+            
+            function slider(){
+                if(i > len-1){
+                    i=0;
+                }
+                sliderImg.src = images[i];
+                i++;
+                setTimeout('slider()',3000);
+            }
+            
+        </script>
+        <!--Aos libary-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once:true
+            });
+        </script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
